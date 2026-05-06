@@ -6,7 +6,7 @@ package er.sec.models;
 public class PessoaModel {
 
     @Id
-    @GeneratedValue(strategy = generatedType.IDENTIFY)
+    @GeneratedValue(strategy = GenerationType.IDENTIFY)
     private Long id;
     private String nome;
 }
